@@ -37,7 +37,7 @@ def generate_resume(name, email, phone, linkedin, degree, experience, skills):
     Skills:
     {skills}
     """
-    response = model.generate_content(prompt)  # 👈 This was missing
+    response = model.generate_content(prompt)  
     return response.text
 
 def generate_cover_letter(resume, job_description):

@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.openai_helper import generate_cover_letter
+from utils.geminiAPI_helper import generate_cover_letter
 from utils.pdf_converter import save_cover_letter_as_pdf
 
 st.set_page_config(page_title="AI Cover Letter Generator", layout="wide")

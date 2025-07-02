@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.openai_helper import generate_resume
+from utils.geminiAPI_helper import generate_resume
 from utils.pdf_converter import save_resume_as_pdf
 
 st.set_page_config(page_title="AI Resume Generator", layout="wide")
